@@ -1,4 +1,9 @@
-#footer {
+section#b6 {
+  height: 35vh;
+}
+
+footer {
+  padding-top: 10vh;
   height: 40vh;
   background-image: url("./images/bgk-footer.png");
   background-size: cover;
@@ -12,4 +17,17 @@
   display: flex;
   flex: 0 1 20%;
   flex-direction: column;
+}
+
+#footerBrand {
+  display: flex;
+}
+
+#footerLogoContainer {
+  height: 50%;
+}
+
+#footerBrand p {
+  margin-left: 0.7vw;
+  color: #3c7290;
 }
