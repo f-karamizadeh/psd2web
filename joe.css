@@ -1,0 +1,40 @@
+h2 {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', serif, ;
+  color: #403E4B;
+}
+
+p {
+  color: #403E4B;
+}
+
+.underline {
+  display: block;
+  width: 4em;
+  border-bottom: 2px solid #403E4B;
+  height: 4px;
+}
+#b4 {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+#exp-container {
+  display: block;
+  height: auto;
+  width: 50%;
+}
+
+.exp-item {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+}
+
+.exp-item {
+  height: 5rem;
+  width: 5rem;
+}
