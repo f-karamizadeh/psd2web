@@ -59,7 +59,7 @@
 .b1left p {
 display: inline-block;
 color: rgba(0, 255, 255, 0.377);
-font-family: Arial Narrow;
+font-family: "Arial Narrow";
 font-size: 1.4rem;
 font-weight:lighter;
 font-stretch:expanded;
@@ -77,21 +77,120 @@ margin-top: 15px;
 }
 
 .b1titel-div{
-width: 40%;
-height: 50%;
-align-self:center;
 
+width: 850px;
+height:285px;
+align-self:center;
+align-content: center;
 }
 
-.h1title{
+.h1titel{
     color: white;
     text-align: center;
 }
 
-.b1titel-div p{
+.b1titel-div #line{
     color: rgba(0, 255, 255, 0.377);
     height: 2px;
     width: 20px;
     margin-left: 48%;
     margin-top: -20px;
+}
+.b1titel-div #ptitel{
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 40px; 
+    text-align: center;
+    font-family: tahoma;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 5rem;
+
+}
+
+.b1titel-div #learnMore{
+    color: rgba(0, 255, 255, 0.377);
+    text-align: center;
+    font-family: tahoma;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid rgba(0, 255, 255, 0.377);
+    width: 90px;
+    padding: 12px;
+    margin-left: 45%;
+    margin-top: -40px;
+    
+}
+
+.b2{
+    margin: 5px 5px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: auto; */
+    flex-wrap: wrap;
+}
+
+.b2left {
+    display: flex;
+    width: 50%;
+    /* margin-top: 15px; */
+    justify-content: flex-end;
+    
+}
+
+.b2right{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+/*Pyramid*/
+.b2left span {
+    display: inline-block;
+    background: url(./images/png/logo-big.png) no-repeat center;
+    width: 250px;
+    height: 250px;
+    scale: 0.8;
+    padding-right: 150px;
+}
+
+.b2titel-div{
+
+width: 450px;
+height:285px;
+align-self:center;
+align-content: center;
+}
+
+.b2h1titel{
+    color: #403E4B;
+    text-align: left;
+}
+
+.b2titel-div #ptitel , #ptitel2{
+    color: #403E4B;
+    width: 100%;
+    text-align: left;
+    font-family: tahoma;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+
+
+}
+
+.b2titel-div #learnMore{
+    color: rgba(0, 255, 255, 0.377);
+    /* text-align: center; */
+    font-family: tahoma;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid rgba(0, 255, 255, 0.377);
+    width: 90px;
+    padding: 12px;
+    margin-top: 20px;
+    
 }
