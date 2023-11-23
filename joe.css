@@ -71,6 +71,7 @@ h2 {
 
 .exp-item:hover {
   background-color: #68DACD11;
+  cursor: crosshair;
 }
 
 .exp-item img {
