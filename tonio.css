@@ -47,8 +47,10 @@ section#b6 {
 /* Footer */
 
 footer {
+  font-family: "Arial";
+  font-size: 0.6rem;
   padding-top: 10vh;
-  height: 40vh;
+  height: 43vh;
   background-image: url("./images/bgk-footer.png");
   background-size: cover;
   display: flex;
@@ -71,6 +73,7 @@ footer .container-column {
 }
 
 #footer-brand p {
+  font-size: 1.4rem;
   margin-left: 0.7vw;
   color: #3c7290;
 }
@@ -83,5 +86,25 @@ footer .container-column {
 }
 
 #footer h2 {
+  font-family: "Arial";
+  text-align: left;
+  color: #fff;
   margin-bottom: 2vh;
+}
+
+#footer-studio .image-container {
+  height: 3vh;
+}
+
+footer input[type="text"] {
+  color: rgb(206, 206, 206);
+  background: transparent;
+}
+
+#footer-social button {
+  background-color: rgba(206, 206, 206, 0.5);
+}
+
+#footer-contact-form {
+  /* height: 8vh; */
 }
