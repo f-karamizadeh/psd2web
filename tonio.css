@@ -1,4 +1,53 @@
-#footer {
+section#b6 {
+  height: 60vh;
+  color: #403e4b;
+}
+
+#b6-main-container {
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#b6-contact-form {
+  height: 40vh;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: #ff0000;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#clients {
+  margin-left: 3vw;
+  max-height: 100%;
+}
+
+#clients .container {
+  display: flex;
+  width: 20vw;
+  height: 90%;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+#clients img {
+  width: 8vw;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 10vh;
   height: 40vh;
   background-image: url("./images/bgk-footer.png");
   background-size: cover;
@@ -8,8 +57,31 @@
   color: #fff;
 }
 
-.containerColumn {
-  display: flex;
+footer .container-column {
   flex: 0 1 20%;
-  flex-direction: column;
+}
+
+#footer-brand {
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+#footer-logo-container {
+  height: 50%;
+}
+
+#footer-brand p {
+  margin-left: 0.7vw;
+  color: #3c7290;
+}
+
+#footer-legal-links {
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer h2 {
+  margin-bottom: 2vh;
 }
