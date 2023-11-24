@@ -17,8 +17,9 @@
 /* Section 6 */
 
 section#b6 {
-  padding-top: 10vh;
-  height: 80vh;
+  padding: 4rem 0 0 0;
+  height: auto;
+  min-height: 40rem;
   justify-content: center;
   align-items: center;
   color: #403e4b;
@@ -28,6 +29,10 @@ section#b6 {
   max-height: 100%;
   display: flex;
   justify-content: center;
+}
+
+#b6-main-container button {
+  width: 6rem;
 }
 
 #b6-contact-form {
@@ -121,7 +126,7 @@ footer .container-column {
 /* Stay in Touch */
 
 footer input[type="text"] {
-  height: 4vh;
+  height: 1.7rem;
   color: rgb(206, 206, 206);
   background: transparent;
 }
@@ -129,7 +134,7 @@ footer input[type="text"] {
 #footer-social button {
   border: none;
   margin-top: 0;
-  height: 4vh;
+  height: 1.7rem;
   background-color: rgba(206, 206, 206, 0.5);
 }
 
